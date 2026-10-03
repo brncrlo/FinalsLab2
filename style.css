@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  color: #1e293b;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.subtitle {
+  color: #64748b;
+  margin-bottom: 30px;
+}
+
+#result {
+  background-color: #f8fafc;
+  border-radius: 10px;
+  padding: 25px;
+  min-height: 120px;
+}
+
+#result h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#result p {
+  margin: 10px 0;
+}
+
+.instruction {
+  color: #64748b;
+}
+
+.result-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.remark {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.error {
+  color: #dc2626;
+  font-weight: bold;
+}
+
+.cancelled {
+  color: #d97706;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+}
